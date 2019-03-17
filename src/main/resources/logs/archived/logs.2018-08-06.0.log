@@ -1,0 +1,39 @@
+2018-08-06 18:37:05 - [SpringBootDemoApplication.main][START]
+2018-08-06 18:37:11 - Starting SpringBootDemoApplication on BHOLAS with PID 21424 (C:\Users\BHOLAS\workspace\springBootDemo\target\classes started by BHOLAS in C:\Users\BHOLAS\workspace\springBootDemo)
+2018-08-06 18:37:11 - No active profile set, falling back to default profiles: default
+2018-08-06 18:37:11 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c13091: startup date [Mon Aug 06 18:37:11 IST 2018]; root of context hierarchy
+2018-08-06 18:37:18 - Tomcat initialized with port(s): 8001 (http)
+2018-08-06 18:37:18 - Initializing ProtocolHandler ["http-nio-8001"]
+2018-08-06 18:37:19 - Starting service [Tomcat]
+2018-08-06 18:37:19 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-08-06 18:37:19 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files (x86)\java\jdk1.8.0_45\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_181/bin/client;C:/Program Files (x86)/Java/jre1.8.0_181/bin;C:/Program Files (x86)/Java/jre1.8.0_181/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11;C:\OracleXE\app\oracle\product\11.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\FarStone\VIRTUA~1;C:\Program Files (x86)\FarStone\VirtualDrive\VDP;C:\Program Files (x86)\FarStone\VIRTUA~1\DVDCRE~1;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\MongoDB\Server\3.0\bin\;C:\Program Files\apache-maven-3.3.3\bin;C:\Program Files (x86)\Java\jdk1.8.0_45\bin;C:\Users\BHOLAS\AppData\Roaming\Cloud Foundry;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\jdk1.8.0_45;C:\Users\BHOLAS\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Users\BHOLAS\Documents\TOOLS\pivotal-gemfire-9.3.0\bin\;;C:\Program Files (x86)\Eclipse\eclipse-jee-oxygen-M2-win32\eclipse;;.]
+2018-08-06 18:37:19 - Initializing Spring embedded WebApplicationContext
+2018-08-06 18:37:19 - Root WebApplicationContext: initialization completed in 8250 ms
+2018-08-06 18:37:20 - Servlet dispatcherServlet mapped to [/]
+2018-08-06 18:37:20 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-06 18:37:20 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-06 18:37:20 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-06 18:37:20 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-06 18:37:20 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 18:37:21 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@c13091: startup date [Mon Aug 06 18:37:11 IST 2018]; root of context hierarchy
+2018-08-06 18:37:22 - Mapped "{[/hello/{nm}],methods=[GET],produces=[text/plain]}" onto public org.springframework.http.ResponseEntity<java.lang.String> com.example.demo.controller.MyHello.sayHello(java.lang.String)
+2018-08-06 18:37:22 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-06 18:37:22 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-06 18:37:22 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 18:37:22 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-06 18:37:22 - Adding welcome page: class path resource [public/index.html]
+2018-08-06 18:37:23 - Registering beans for JMX exposure on startup
+2018-08-06 18:37:23 - Starting ProtocolHandler ["http-nio-8001"]
+2018-08-06 18:37:23 - Using a shared selector for servlet write/read
+2018-08-06 18:37:24 - Tomcat started on port(s): 8001 (http) with context path ''
+2018-08-06 18:37:24 - Started SpringBootDemoApplication in 16.83 seconds (JVM running for 23.912)
+2018-08-06 18:37:24 - [SpringBootDemoApplication.main][END]
+2018-08-06 18:39:26 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-06 18:39:26 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-06 18:39:26 - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-08-06 18:40:16 - [sayHello][START]
+2018-08-06 18:40:16 - [sayHello][END][<h1>Hello SAHIL !!</h1>]
+2018-08-06 20:27:21 - [sayHello][START]
+2018-08-06 20:27:21 - [sayHello][END][<h1>Hello SAHIL Bhola !!</h1>]
+2018-08-06 21:28:41 - [sayHello][START]
+2018-08-06 21:28:41 - [sayHello][END][<h1>Hello SAHIL Bhola !!</h1>]

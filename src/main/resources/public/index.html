@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="index">
+	<head>
+		<title>Hello To AngularJS hosted with SprngBoot.</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+	   	<script src="/js/greet.js"></script>
+	</head>
+
+	<body>
+		<div !ng-controller="greet">
+			Your Name : <input type="text" ng-model="guestName" >
+			<p>{{greeting}}</p>
+		</div>
+		
+		<div ng-controller="calculator">
+			<table>
+				<tr><del>SAHIL</del></tr>
+				<tr><ins>BHOLA</ins></tr>
+				<tr><td>New</td></tr>
+			</table>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,3 @@
+FROM openjdk:latest
+MAINTAINER sahil.bhola@gmail.com
+WORKDIR /base/springboot/demo/

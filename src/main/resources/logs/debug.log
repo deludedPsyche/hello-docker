@@ -1,0 +1,48 @@
+2018-05-12 16:01:31 - Initializing servlet 'dispatcherServlet'
+2018-05-12 16:01:31 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-12 16:01:31 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'multipartResolver'
+2018-05-12 16:01:31 - Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@3d500a]
+2018-05-12 16:01:31 - Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-05-12 16:01:31 - Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+2018-05-12 16:01:31 - Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@cbc1aa]
+2018-05-12 16:01:31 - Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-05-12 16:01:31 - Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+2018-05-12 16:01:31 - Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@148d9ef]
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'faviconHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'beanNameHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'resourceHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'errorAttributes'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'handlerExceptionResolver'
+2018-05-12 16:01:31 - Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-05-12 16:01:31 - Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+2018-05-12 16:01:31 - Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@86c24d]
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'beanNameViewResolver'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'mvcViewResolver'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'defaultViewResolver'
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'viewResolver'
+2018-05-12 16:01:31 - Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-05-12 16:01:31 - Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+2018-05-12 16:01:31 - Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@637329]
+2018-05-12 16:01:31 - Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+2018-05-12 16:01:31 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2018-05-12 16:01:31 - Servlet 'dispatcherServlet' configured successfully
+2018-05-12 16:01:31 - Bound request context to thread: org.apache.catalina.connector.RequestFacade@10ab2c1
+2018-05-12 16:01:31 - DispatcherServlet with name 'dispatcherServlet' processing GET request for [/hello/BHOLA]
+2018-05-12 16:01:31 - Looking up handler method for path /hello/BHOLA
+2018-05-12 16:01:31 - Returning handler method [public java.lang.String com.example.demo.controller.MyHello.sayHello(java.lang.String)]
+2018-05-12 16:01:31 - Returning cached instance of singleton bean 'myHello'
+2018-05-12 16:01:31 - Last-Modified value for [/hello/BHOLA] is: -1
+2018-05-12 16:01:31 - [sayHello][START]
+2018-05-12 16:01:31 - [sayHello][END]
+2018-05-12 16:01:31 - Written [Hello BHOLA !!] as "text/plain" using [org.springframework.http.converter.StringHttpMessageConverter@127bd9f]
+2018-05-12 16:01:31 - Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+2018-05-12 16:01:31 - Successfully completed request
+2018-05-12 16:01:31 - Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@10ab2c1
